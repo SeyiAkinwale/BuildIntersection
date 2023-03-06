@@ -12,7 +12,7 @@ std::vector<int> intersection(std::vector<int> a, std::vector<int> b) {
   {
     for (int j=0; j<b.size(); j++)
     {
- //     if(a[i]=b[j])
+      if(a[i]=b[j])
       {
         result.push_back(a[i]);
       }
