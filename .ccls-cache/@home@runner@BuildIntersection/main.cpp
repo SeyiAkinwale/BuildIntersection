@@ -19,6 +19,9 @@ std::vector<int> intersection(std::vector<int> a, std::vector<int> b) {
     }
 }
   cout<<" result size: "<<result.size();
+
+  for (int i= 0; i<a.size(); i++)
+    cout<<" a "<<a[i] <<" b "<<b[i]<<endl;
   for(int i=0; i<result.size(); i++)
     cout<<" "<<result[i];
   return result;
