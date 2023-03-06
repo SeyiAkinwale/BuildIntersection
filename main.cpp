@@ -26,6 +26,6 @@ std::vector<int> intersection(std::vector<int> a, std::vector<int> b) {
 
 
 int main() {
-  std::cout << "Hello World!\n";
+
   intersection ( {4,2,1,6}, {3,6,9,2,10});
 }
