@@ -26,6 +26,13 @@ std::vector<int> intersection(std::vector<int> a, std::vector<int> b) {
 
 
 int main() {
+  std::vector<int> a;
+  std::vector<int> b;
+  for (int i = 0; i < 32; i += 1) {
+    a.push_back(i);
+    b.push_back(i);
+  }
 
-  intersection ( {4,2,1,6}, {3,6,9,2,10});
+  intersection(a, b);
+//  intersection ( {4,2,1,6}, {3,6,9,2,10});
 }
